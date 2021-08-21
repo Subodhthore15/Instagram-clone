@@ -5,13 +5,13 @@ function heart_red() {
 
         let likes = document.getElementsByClassName('likes')[0];
 
-            if (heart.src.match('/img/heart.png')) 
+            if (heart.src.match('img/heart.png')) 
             {
-                heart.src = '/img/heart_red.png';
+                heart.src = 'img/heart_red.png';
                 likes.innerHTML="3,445 likes"
             }
             else{
-                heart.src = '/img/heart.png';
+                heart.src = 'img/heart.png';
                 likes.innerHTML="3,444 likes"
             }
 
