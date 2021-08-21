@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    background: #fff;
+}
+
+.card{
+    position: relative;
+
+    width: 360px;
+    max-height: 600px;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgba(0,0,0, 0.15);
+    padding: 20px;
+}
+
+.card .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .top .userDetail{
+    display: flex;
+    align-items: center;
+}
+
+
+.card .top .userDetail .profileImg {
+        position: relative;
+        height: 43px;
+        width: 41px;
+        border-radius: 58%;
+        overflow: hidden;
+}
+
+
+.card .top .userDetail .profileImg .cover{
+    height: 43px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.card .top .userDetail h3{
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 1000;
+    line-height: 1em;
+
+}
+.card .top .userDetail h3 span{
+    font-size: 0.75em;
+    
+    
+
+}
+.dot{
+    transform: scale(0.6);
+    cursor: pointer;
+}
+.card .imgBX .cover{
+ 
+        display: block;
+        
+        width: 100%;
+    
+}
+.card .imgBX {
+   position: relative;
+   height: 62%;
+   width: 100%;
+   margin: 2px;
+   
+}
+.card .actionBtns{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .actionBtns img{
+    width: 24px;
+    cursor: pointer;
+}
+
+.card .actionBtns .left img{
+    margin-right: 3px;
+}
+.card .likes{
+    font-size: 16px;
+}
+
+.card .message{
+    font-weight: 500;
+    /* font-size: 16px; */
+    color: rgb(87, 85, 85);
+    line-height: 1.5em;
+}
+.card .message b{
+    color:rgb(41, 40, 40);
+}
+.card .message span{
+    color:rgb(83, 83, 247);
+    cursor: pointer;
+}
+.card .comments{
+    font-weight: 400;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(102, 101, 101);
+}
+.card .addComments{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.card .addComments .userImg{
+    position: relative;
+    min-width: 36px;
+    height: 36px;
+    margin-right: 8px;
+}
+.card .addComments .userImg img{
+/* display: block; */
+border-radius: 50%;
+height: 100%;
+width: 100%;
+}
+.card .text{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.text::placeholder{
+    color: rgb(53, 51, 51);
+}
+.card .postTime{
+    margin-top: 8px;
+    font-weight: 600;
+    color: rgb(53, 51, 51);
+}
